@@ -1,0 +1,164 @@
+
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir-Regular.eot');
+    src: url('Vazir-Regular.eot?#iefix') format('embedded-opentype'),
+         url('Vazir-Regular.woff2') format('woff2'),
+         url('Vazir-Regular.woff') format('woff'),
+         url('Vazir-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir-Bold.eot');
+    src: url('Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+         url('Vazir-Bold.woff2') format('woff2'),
+         url('Vazir-Bold.woff') format('woff'),
+         url('Vazir-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir-Black.eot');
+    src: url('Vazir-Black.eot?#iefix') format('embedded-opentype'),
+         url('Vazir-Black.woff2') format('woff2'),
+         url('Vazir-Black.woff') format('woff'),
+         url('Vazir-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir-Medium.eot');
+    src: url('Vazir-Medium.eot?#iefix') format('embedded-opentype'),
+         url('Vazir-Medium.woff2') format('woff2'),
+         url('Vazir-Medium.woff') format('woff'),
+         url('Vazir-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir-Light.eot');
+    src: url('Vazir-Light.eot?#iefix') format('embedded-opentype'),
+         url('Vazir-Light.woff2') format('woff2'),
+         url('Vazir-Light.woff') format('woff'),
+         url('Vazir-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir-Thin.eot');
+    src: url('Vazir-Thin.eot?#iefix') format('embedded-opentype'),
+         url('Vazir-Thin.woff2') format('woff2'),
+         url('Vazir-Thin.woff') format('woff'),
+         url('Vazir-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+* {
+    font-family: Vazir
+}
+
+.header-container {
+    z-index: 1000;
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    background-color: white;
+
+}
+
+.header {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 60%;
+    min-width: 1000px;
+    background-color: white;
+
+}
+
+.login {
+    position: absolute;
+    left: 0;
+    width: 25%;
+    height: 100%;
+}
+
+.header-items {
+    position: absolute;
+    right: 0;
+    width: 75%;
+    height: 100%;
+}
+
+.login-btn {
+    box-sizing: border-box;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translate(0%, -50%);
+    width: 90px;
+    background-color: #ededed;
+    border-radius: 5px !important;
+    font-size: 16px;
+    color: #1780df;
+    text-decoration: none;
+    padding-right: 7%;
+    padding-bottom: 4px;
+    font-weight: bold;
+}
+
+.login-btn svg{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    top: 5px;
+}
+
+.login-btn:hover {
+    color: red;
+}
+
+.header-image {
+    position: relative;
+    top:14px;
+    margin-left: 20px;
+}
+
+.header-item{
+    color: #3b4157;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.header-item p{
+    position: relative;
+    top: -7px;
+    display: inline-block;
+    font-size: 14px;
+    
+}
+
+.header-item svg{
+    margin-right: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.header-item:hover{
+  color: #fb815e;
+  cursor: pointer;
+}
+
