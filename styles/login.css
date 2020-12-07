@@ -105,7 +105,7 @@
     box-shadow: none;
     width: 100%;
     border: none;
-    padding: 16px;
+    padding-bottom: 0px;
     cursor: pointer;
     outline: none;
     border-radius: 10px;
@@ -118,6 +118,7 @@
     align-items: flex-start;
     margin-top: 20pt;
     font-size: 16px;
+    height: 55px;
 }
 
 .btn-login svg{
@@ -139,10 +140,11 @@
     color: #fb815e;
     box-shadow: none;
     width: 110pt;
-    padding: 16px;
     cursor: pointer;
     margin-top: 15pt;
     font-size: 16px;
+    height: 58px;
+    box-sizing: border-box;
 }
 
 .invite-vode-btn:hover { 
